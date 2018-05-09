@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Piet_Mondriaan%2C_1939-1942_-_Composition_10.jpg/800px-Piet_Mondriaan%2C_1939-1942_-_Composition_10.jpg");
+   display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,0.70);
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    padding-bottom: 500px;
+}
+
+h1 {
+    font-family: Monoton;
+    color: #aeb12c;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-style: oblique;
+    color: #79938A;
+    font-size: 30px;
+    font-family: Monoton;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#sizePicker {
+  font-family: Monoton;
+  font-size: 20px;
+  color: #878B14;
+}
